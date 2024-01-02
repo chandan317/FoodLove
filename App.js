@@ -68,6 +68,10 @@ const Body = () => {
           cuisine="andhra food , south indian"
         />
         <RestaurantCard resName="kfc " cuisine="american food , burger" />
+        <RestaurantCard
+          resName="bro cafe"
+          cuisine="Indian food , burger , coffee "
+        />
       </div>
     </div>
   );
