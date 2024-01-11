@@ -25,6 +25,7 @@ const Header = () => {
     <div className="header">
       <div className=" logo-container">
         <img
+          alt="Logo of App"
           className="logo"
           src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png?size=2"
         ></img>
