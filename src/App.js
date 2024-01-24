@@ -1,23 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-/*
- * Header
- *   - Logo
- *   - Nav Items
- * Body
- *   - Search
- *   - RestaurantContainer
- *      - RestaurantCard
- *         -Img
- *         -Name of Res,Star Rating ,cuisine , delivery time
- * Footer
- *   - Copyright
- *   - Links
- *   - Address
- *   - Contact
- */
-
 // header
 
 const Header = () => {
@@ -51,8 +34,8 @@ const RestaurantCard = (props) => {
     <div className="res-card" style={{ backgroundColor: "#f0f0f0" }}>
       <img
         className="res-logo"
-        width="150px"
-        height="150px"
+        width="200px"
+        height="200px"
         src={
           "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
           cloudinaryImageId
